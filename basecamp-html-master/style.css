@@ -1,0 +1,94 @@
+a {
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    padding: 16px; /* For spaces between text */
+    text-decoration: none;
+}
+ul {
+    background-color: dimgrey;
+    list-style-type: none; /* Remove "dotts" */
+    overflow: hidden; /* To bring back the black background*/
+    margin: 0px;
+    padding: 0px;
+
+}
+li {
+    float: right;
+}
+.active {
+    background-color: tomato;
+}
+.comp {
+    float: left;
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.black {
+    background-color: black;
+    height: 200px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+h1 {
+    color: yellow;
+    text-align: center;
+    padding: 50px;
+}
+.div2 {
+    background-color: deepskyblue;
+    width: 250px;
+    height: 250px;
+    margin: 80px;
+    border-radius: 30px;
+    float: left;
+}
+.div3 {
+    display: block;
+    background-color: deepskyblue;
+    width: 250px;
+    height: 250px;
+    margin: 80px;
+    border-radius: 30px;
+    float: left;
+}
+.div4 {
+    background-color: deepskyblue;
+    width: 250px;
+    height: 250px;
+    margin: 80px;
+    border-radius: 30px;
+    float: left; /* Keep div side by */
+}
+.div5 {
+    background-color: darkorange;
+    width: 500px;
+    height: 250px;
+    float: left; /* Keep div side by */
+    margin: 0px 80px;
+}
+.div6 {
+    background-color: darkorange;
+    width: 500px;
+    height: 250px;
+    float: right; /* Keep div side by */
+    margin: 0px 80px;
+}
+.div7 {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    float: left; /* Keep div side by */
+    margin: 100px;
+}
+.div8 {
+    background-color: yellow;
+    width: 250px;
+    height: 150px;
+    float: right; /* Keep div side by */
+    margin: 100px;
+    padding: 0px 0px 0px 100px;
+    background-image: url(ct1.png);
+}
